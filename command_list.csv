@@ -1,0 +1,113 @@
+    1  cd Desktop/
+    2  cd 
+    3  cd Desktop/
+    4  cd QA35
+    5  cd ../
+    6  cd /c/Users/Soren/Desktop/QA35
+    7  clear
+    8  pwd
+    9  ls -l
+   10  touch text.txt
+   11  ls -l
+   12  clear
+   13  vim text.txt
+   14  cat text.txt
+   15  clear
+   16  mkdir Soren
+   17  ls -l
+   18  cp text.txt Soren/
+   19  ls -l
+   20  cd Soren
+   21  ls -l
+   22  rm text.txt
+   23  ls -l
+   24  clear
+   25  ping google.com
+   26  clear
+   27  date
+   28  systeminfo
+   29  cd Soren
+   30  ls -l
+   31  ../
+   32  cd ../
+   33  ls -l
+   34  ls -l
+   35  attrib +r text.txt
+   36  ls -l
+   37  clear
+   38  git clone https://github.com/Renata0047/GitQA35.git
+   39  cd GitQA35
+   40  git config --global user.name "Renata0047"
+   41  git config --global user.email "renatakulgavec@gmail.com"
+   42  touch file.txt
+   43  ls -l
+   44  git status
+   45  git add file.txt
+   46  git status
+   47  git commit -m "First commit"
+   48  git push
+   49  git branch
+   50  git checkout -b test
+   51  git branch
+   52  touch test.txt
+   53  ls -l
+   54  git status
+   55  git add test.txt
+   56  git status
+   57  git commit -m "Second commit"
+   58  git checkout main
+   59  git merge test
+   60  git push
+   61  git clone it clone ^[[200~https://github.com/Renata0047/HW_10.git~
+   62  clear
+   63  git clone https://github.com/Renata0047/HW_10.git
+   64  cd HW_10
+   65  touch text_ignore.txt
+   66  ls -l
+   67  vim  .gitignore
+   68  git status
+   69  git add text_ignore.txt
+   70  git add .gitignore
+   71  git commit -m "Text_ignore commit"
+   72  git status
+   73  touch main_test.txt 
+   74  ls -l
+   75  git add main_test.txt
+   76  git commit -m "Main_test commit"
+   77  git checkout -b developls-lgigigdlvknsklvnszklvnлтлоллвалjgj
+   78  git bra
+   79  touch develop_test.txt
+   80  ls -l
+   81  cd HW_10
+   82  git branch
+   83  ls -l
+   84  git status
+   85  git add develop_test.txt
+   86  git commit -m "Develop_test commit"
+   87  vim develop_test.txt
+   88  git status
+   89  git add develop_test.txt
+   90  git commit -m "Develop_test commit"
+   91  git branch
+   92  git checkout main
+   93  git push
+   94  git checkout develop
+   95  git push
+   96  ls -l
+   97  git status
+   98  git commit -m "Develop_test commit"
+   99  vim develop_test.txt
+  100  git commit -m "Develop_test commit"
+  101  git add develop_test.txt
+  102  git commit -m "Develop_test commit"
+  103  git push
+  104  git checkout main
+  105  git merge develop
+  106  git log
+  107  git checkout main
+  108  cd HW_10
+  109  git checkout main
+  110  git merge develop
+  111  git push
+  112  ls -l
+  113  history > command_list.csv
